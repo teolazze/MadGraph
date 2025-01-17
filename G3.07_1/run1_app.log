@@ -1,0 +1,344 @@
+==== LHAPDF6 USING DEFAULT-TYPE LHAGLUE INTERFACE ====
+LHAPDF 6.5.4 loading /srv/test_matteo/MG5_aMC_v3_5_0/HEPTools/lhapdf6_py3//share/LHAPDF/NNPDF30_nlo_as_0118/NNPDF30_nlo_as_0118_0000.dat
+NNPDF30_nlo_as_0118 PDF set, member #0, version 2; LHAPDF ID = 260000
+ Process in group number            1
+ A PDF is used, so alpha_s(MZ) is going to be modified
+ Old value of alpha_s from param_card:   0.11800230000000002     
+ New value of alpha_s from PDF lhapdf :  0.11800222660863767     
+ using LHAPDF
+ Define smin to   22500.000000000000     
+ Warning: pt or E min of a jet should in general be >0
+ *****************************************************
+ *               MadGraph/MadEvent                   *
+ *        --------------------------------           *
+ *          http://madgraph.hep.uiuc.edu             *
+ *          http://madgraph.phys.ucl.ac.be           *
+ *          http://madgraph.roma2.infn.it            *
+ *        --------------------------------           *
+ *                                                   *
+ *          PARAMETER AND COUPLING VALUES            *
+ *                                                   *
+ *****************************************************
+
+  External Params
+  ---------------------------------
+  
+ MU_R =    91.188000000000002     
+ mdl_MB =    0.0000000000000000     
+ mdl_MT =    173.19999999999999     
+ mdl_MTA =    1.7768200000000001     
+ mdl_MZ =    91.187600000000003     
+ mdl_MH =    125.09999999999999     
+ aEWM1 =    132.33840000000001     
+ mdl_Gf =    1.1663900000000000E-005
+ aS =   0.11800230000000002     
+ mdl_ymb =    0.0000000000000000     
+ mdl_ymt =    173.19999999999999     
+ mdl_ymtau =    1.7769999999999999     
+ mdl_WT =    0.0000000000000000     
+ mdl_WZ =    2.4952000000000001     
+ mdl_WW =    2.1053999999999999     
+ mdl_WH =    4.0299999999999997E-003
+  Internal Params
+  ---------------------------------
+  
+ mdl_conjg__CKM22 =    1.0000000000000000     
+ mdl_CKM22 =    1.0000000000000000     
+ mdl_CKM3x3 =    1.0000000000000000     
+ mdl_CKM33 =    1.0000000000000000     
+ mdl_conjg__CKM3x3 =    1.0000000000000000     
+ mdl_lhv =    1.0000000000000000     
+ mdl_Ncol =    3.0000000000000000     
+ mdl_CA =    3.0000000000000000     
+ mdl_TF =   0.50000000000000000     
+ mdl_CF =    1.3333333333333333     
+ mdl_complexi =                (0.0000000000000000,1.0000000000000000)
+ mdl_MZ__exp__2 =    8315.1783937600012     
+ mdl_MZ__exp__4 =    69142191.720053151     
+ mdl_sqrt__2 =    1.4142135623730951     
+ mdl_MH__exp__2 =    15650.009999999998     
+ mdl_Ncol__exp__2 =    9.0000000000000000     
+ mdl_MB__exp__2 =    0.0000000000000000     
+ mdl_MT__exp__2 =    29998.239999999994     
+ mdl_aEW =    7.5563857504700070E-003
+ mdl_MW =    80.397996064321347     
+ mdl_sqrt__aEW =    8.6927474083111411E-002
+ mdl_ee =   0.30814987237620051     
+ mdl_MW__exp__2 =    6463.8377711586309     
+ mdl_sw2 =   0.22264592951976603     
+ mdl_cw =   0.88167685150526320     
+ mdl_sqrt__sw2 =   0.47185371622968703     
+ mdl_sw =   0.47185371622968703     
+ mdl_g1 =   0.34950432445867724     
+ mdl_gw =   0.65306229828695583     
+ mdl_v =    246.21845810181625     
+ mdl_v__exp__2 =    60623.529110035844     
+ mdl_lam =   0.12907537906275765     
+ mdl_yb =    0.0000000000000000     
+ mdl_yt =   0.99481489280438806     
+ mdl_ytau =    1.0206617000654720E-002
+ mdl_muH =    88.459058326437088     
+ mdl_AxialZUp =  -0.18517620633115187     
+ mdl_AxialZDown =   0.18517620633115187     
+ mdl_VectorZUp =    7.5232930108369761E-002
+ mdl_VectorZDown =  -0.13020456821976081     
+ mdl_VectorAUp =   0.20543324825080034     
+ mdl_VectorADown =  -0.10271662412540017     
+ mdl_VectorWmDxU =   0.23089238982798918     
+ mdl_AxialWmDxU =  -0.23089238982798918     
+ mdl_VectorWpUxD =   0.23089238982798918     
+ mdl_AxialWpUxD =  -0.23089238982798918     
+ mdl_I1x33 =                (0.0000000000000000,0.0000000000000000)
+ mdl_I2x33 =               (0.99481489280438806,0.0000000000000000)
+ mdl_I3x33 =               (0.99481489280438806,0.0000000000000000)
+ mdl_I4x33 =                (0.0000000000000000,0.0000000000000000)
+ mdl_Vector_tbGp =              (-0.99481489280438806,0.0000000000000000)
+ mdl_Axial_tbGp =             (-0.99481489280438806,-0.0000000000000000)
+ mdl_Vector_tbGm =               (0.99481489280438806,0.0000000000000000)
+ mdl_Axial_tbGm =             (-0.99481489280438806,-0.0000000000000000)
+ mdl_gw__exp__2 =   0.42649036544384089     
+ mdl_cw__exp__2 =   0.77735407048023397     
+ mdl_ee__exp__2 =    9.4956343845468666E-002
+ mdl_sw__exp__2 =   0.22264592951976600     
+ mdl_yb__exp__2 =    0.0000000000000000     
+ mdl_yt__exp__2 =   0.98965667094540610     
+  Internal Params evaluated point by point
+  ----------------------------------------
+  
+ mdl_sqrt__aS =   0.34351462850947123     
+ mdl_G__exp__4 =    2.1988756632679585     
+ mdl_G__exp__2 =    1.4828606351467957     
+ mdl_G__exp__3 =    1.8057203999075704     
+ mdl_MU_R__exp__2 =    8315.2513440000002     
+  Couplings of loop_sm
+  ---------------------------------
+  
+         GC_4 =  -0.12177E+01   0.00000E+00
+         GC_5 =   0.00000E+00   0.12177E+01
+      R2_GGHb =   0.00000E+00   0.00000E+00
+      R2_GGHt =   0.00000E+00  -0.45763E+01
+   R2_GGZdown =   0.46370E-02   0.00000E+00
+    R2_GGZAup =   0.00000E+00   0.19351E-03
+  R2_GGZAdown =   0.00000E+00   0.16745E-03
+  R2_GGZZdown =   0.00000E+00   0.64159E-03
+    R2_GGZZup =   0.00000E+00   0.50019E-03
+ R2_GGGZvecUp =   0.00000E+00   0.28676E-03
+ R2_GGGZvecDown  -0.00000E+00  -0.49629E-03
+ R2_GGGZaxialDow  0.00000E+00   0.63524E-02
+         GC_1 =  -0.00000E+00  -0.10272E+00
+         GC_2 =   0.00000E+00   0.20543E+00
+        GC_21 =  -0.00000E+00  -0.28789E+00
+        GC_23 =  -0.00000E+00  -0.27486E-01
+        GC_24 =   0.00000E+00   0.82457E-01
+        GC_25 =   0.00000E+00   0.30815E+00
+        GC_32 =   0.00000E+00   0.67543E+02
+        GC_33 =  -0.00000E+00  -0.00000E+00
+        GC_37 =  -0.00000E+00  -0.70344E+00
+
+ Collider parameters:
+ --------------------
+
+ Running at P P   machine @    13000.000000000000       GeV
+ PDF set = lhapdf 
+ alpha_s(Mz)= 0.1180 running at 2 loops.
+ alpha_s(Mz)= 0.1180 running at 2 loops.
+ Renormalization scale set on event-by-event basis
+ Factorization   scale set on event-by-event basis
+
+
+ getting user params
+Enter number of events and max and min iterations: 
+ Number of events and iterations         4464           1           1
+Enter desired fractional accuracy: 
+ Desired fractional accuracy:    2.0000000000000000E-002
+Enter 0 for fixed, 2 for adjustable grid: 
+Suppress amplitude (0 no, 1 yes)? 
+ Using suppressed amplitude.
+Exact helicity sum (0 yes, n = number/event)? 
+ Monte-Carlo over helicities
+ 
+ ********************************************
+ * You are using the DiscreteSampler module *
+ *      part of the MG5_aMC framework       *
+ *         Author: Valentin Hirschi         *
+ ********************************************
+ 
+Enter Configuration Number: 
+Running Configuration Number:    3
+ Using dconfig=           7
+ BW Setting            1           2           0           0           0
+ Attempting mappinvarients           1           7
+ Determine nb_t
+ T-channel found:            0
+ Completed mapping           7
+ about to integrate           13        4464           1           1          13           1
+ Using unknown grid deformation:          -2
+ 13 dimensions   4464 events 13 invarients  1 iterations  1 config(s),  (0.99)
+ Using h-tuple random number sequence.
+ Grid read from file
+ Grid defined OK
+ Masses: 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ Set CM energy to      13000.00
+ Mapping Graph           3  to config           3
+ Determine nb_t
+ T-channel found:            0
+ Setting BW          -1           1   91.187600000000003     
+ No modification is setgrid, grid read from file
+ No modification is setgrid, grid read from file
+ No modification is setgrid, grid read from file
+ Transforming s_hat 1/s           12   1.3313609467455623E-004   22500.000000000000        168999999.99999997     
+ Got moffset         481
+Using random seed offsets     3 :      1
+  with seed                   27
+ Ranmar initialization seeds        4637       23869
+  Particle       3       4       5       6       7
+      Et >     0.0     0.0     0.0     0.0     0.0
+       E >     0.0     0.0     0.0     0.0     0.0
+     Eta <    -1.0    -1.0    -1.0    -1.0    -1.0
+   xqcut:      0.0     0.0     0.0     0.0    10.0
+d R # 3  >    -0.0     0.0     0.0     0.0     0.0
+d R # 4  >    -0.0    -0.0     0.0     0.0     0.0
+d R # 5  >    -0.0    -0.0    -0.0     0.0     0.0
+d R # 6  >    -0.0    -0.0    -0.0    -0.0     0.0
+s min # 3>     0.0  3600.0     0.0     0.0     0.0
+s min # 4>     0.0     0.0     0.0     0.0     0.0
+s min # 5>     0.0     0.0     0.0  3600.0     0.0
+s min # 6>     0.0     0.0     0.0     0.0     0.0
+xqcutij # 3>     0.0     0.0     0.0     0.0     0.0
+xqcutij # 4>     0.0     0.0     0.0     0.0     0.0
+xqcutij # 5>     0.0     0.0     0.0     0.0     0.0
+xqcutij # 6>     0.0     0.0     0.0     0.0     0.0
+ Requiring BW           -1           1
+ Excluding BW           -3           2
+ alpha_s for scale    89.089831071396546       is   0.11841824153048300     
+  ========================================================================================== 
+ {                                                                                          }
+ {       [32m                                                                            [0m       }
+ {       [32m                               ,,                                           [0m       }
+ {       [32m`7MMM.     ,MMF'             `7MM  `7MMF'                                   [0m       }
+ {       [32m  MMMb    dPMM                 MM    MM                                     [0m       }
+ {       [32m  M YM   ,M MM   ,6"Yb.   ,M""bMM    MM         ,pW"Wq.   ,pW"Wq.`7MMpdMAo. [0m       }
+ {       [32m  M  Mb  M' MM  8)   MM ,AP    MM    MM        6W'   `Wb 6W'   `Wb MM   `Wb [0m       }
+ {       [32m  M  YM.P'  MM   ,pm9MM 8MI    MM    MM      , 8M     M8 8M     M8 MM    M8 [0m       }
+ {       [32m  M  `YM'   MM  8M   MM `Mb    MM    MM     ,M YA.   ,A9 YA.   ,A9 MM   ,AP [0m       }
+ {       [32m.JML. `'  .JMML.`Moo9^Yo.`Wbmd"MML..JMMmmmmMMM  `Ybmd9'   `Ybmd9'  MMbmmd'  [0m       }
+ {       [32m                                                                   MM       [0m       }
+ {       [32m                                                                 .JMML.     [0m       }
+ {       [32m[0mv3.5.2 (2023-11-08), Ref: arXiv:1103.0621v2, arXiv:1405.0301[32m                [0m       }
+ {       [32m                                                                            [0m       }
+ {                                                                                          }
+  ========================================================================================== 
+ ===============================================================
+ INFO: MadLoop read these parameters from ../MadLoop5_resources/MadLoopParams.dat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+ ===============================================================
+  > MLReductionLib            = 6|7|1
+  > CTModeRun                 =           -1
+  > MLStabThres               =    1.0000000000000000E-004
+  > NRotations_DP             =            1
+  > NRotations_QP             =            0
+  > CTStabThres               =    1.0000000000000000E-002
+  > CTLoopLibrary             =            2
+  > CTModeInit                =            1
+  > CheckCycle                =            4
+  > MaxAttempts               =           10
+  > UseLoopFilter             =  F
+  > HelicityFilterLevel       =            1
+  > ImprovePSPoint            =            2
+  > DoubleCheckHelicityFilter =  F
+  > LoopInitStartOver         =  F
+  > HelInitStartOver          =  F
+  > ZeroThres                 =    1.0000000000000001E-009
+  > OSThres                   =    1.0000000000000000E-013
+  > WriteOutFilters           =  F
+  > UseQPIntegrandForNinja    =  T
+  > UseQPIntegrandForCutTools =  T
+  > IREGIMODE                 =            2
+
+  +----------------------------------------------------------------+
+  |                                                                |
+  |  Ninja - version 1.1.0                                         |
+  |                                                                |
+  |  Author: Tiziano Peraro                                        |
+  |                                                                |
+  |  Based on:                                                     |
+  |                                                                |
+  |      P. Mastrolia, E. Mirabella and T. Peraro,                 |
+  |      "Integrand reduction of one-loop scattering amplitudes    |
+  |      through Laurent series expansion,"                        |
+  |      JHEP 1206 (2012) 095  [arXiv:1203.0291 [hep-ph]].         |
+  |                                                                |
+  |      T. Peraro,                                                |
+  |      "Ninja: Automated Integrand Reduction via Laurent         |
+  |      Expansion for One-Loop Amplitudes,"                       |
+  |      Comput.Phys.Commun. 185 (2014) [arXiv:1403.1229 [hep-ph]] |
+  |                                                                |
+  +----------------------------------------------------------------+
+
+
+  > IREGIRECY                 =  T
+  > COLLIERMode               =            1
+  > COLLIERRequiredAccuracy   =    1.0000000000000000E-008
+  > COLLIERCanOutput          =  F
+  > COLLIERComputeUVpoles     =  T
+  > COLLIERComputeIRpoles     =  T
+  > COLLIERGlobalCache        =           -1
+  > COLLIERUseCacheForPoles   =  F
+  > COLLIERUseInternalStabilityTest =  T
+ ===============================================================
+ ##INFO: For loop-induced processes it is preferable to always set the parameter LoopInitStartOver to True, so it is hard-set here to True.
+ ##INFO: For loop-induced processes it is preferable to always set the parameter HelInitStartOver to True, so it is hard-set here to True.
+ ##INFO: Due to the dynamic setting of the reference scale for contributions comparisons, it is preferable to set the parameter CheckCycle to a value larger than 4, so it is hard-set here to 5.
+  
+------------------------------------------------------------------------
+|              You are using CutTools - Version 1.9.3                  |
+|              Authors: G. Ossola, C. Papadopoulos, R. Pittau          |
+|              Published in JHEP 0803:042,2008                         |
+|              http://www.ugr.es/~pittau/CutTools                      |
+|                                                                      |
+|              Compiler with  34  significant digits detetected        |
+ ---------------------------------------------------------------------- 
+   
+########################################################################
+#                                                                      #
+#                      You are using OneLOop-3.6                       #
+#                                                                      #
+# for the evaluation of 1-loop scalar 1-, 2-, 3- and 4-point functions #
+#                                                                      #
+# author: Andreas van Hameren <hamerenREMOVETHIS@ifj.edu.pl>           #
+#   date: 18-02-2015                                                   #
+#                                                                      #
+# Please cite                                                          #
+#    A. van Hameren,                                                   #
+#      Comput.Phys.Commun. 182 (2011) 2427-2438, arXiv:1007.4716       #
+#    A. van Hameren, C.G. Papadopoulos and R. Pittau,                  #
+#      JHEP 0909:106,2009, arXiv:0903.4665                             #
+# in publications with results obtained with the help of this program. #
+#                                                                      #
+########################################################################
+########################################################################
+#                                                                      #
+#                      You are using OneLOop-3.6                       #
+#                                                                      #
+# for the evaluation of 1-loop scalar 1-, 2-, 3- and 4-point functions #
+#                                                                      #
+# author: Andreas van Hameren <hamerenREMOVETHIS@ifj.edu.pl>           #
+#   date: 18-02-2015                                                   #
+#                                                                      #
+# Please cite                                                          #
+#    A. van Hameren,                                                   #
+#      Comput.Phys.Commun. 182 (2011) 2427-2438, arXiv:1007.4716       #
+#    A. van Hameren, C.G. Papadopoulos and R. Pittau,                  #
+#      JHEP 0909:106,2009, arXiv:0903.4665                             #
+# in publications with results obtained with the help of this program. #
+#                                                                      #
+########################################################################
+                                                            
+         *******************************************        
+
+ls status:
+events.lhe
+ftn25
+input_app.txt
+log.txt
+moffset.dat
+run1_app.log
