@@ -1,0 +1,72 @@
+Now generating 2500 events with random seed 1001 and granularity 1
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.2                                    *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/test_matteo/MG5_aMC_v3_5_0/LO+2j_s/ggS_2jet_xqcut5_2/gridpack/Run/run_01/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/test_matteo/MG5_aMC_v3_5_0/input/mg5_configuration.txt  
+INFO: load configuration from /srv/test_matteo/MG5_aMC_v3_5_0/LO+2j_s/ggS_2jet_xqcut5_2/gridpack/Run/run_01/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+WRITE GRIDCARD /srv/test_matteo/MG5_aMC_v3_5_0/LO+2j_s/ggS_2jet_xqcut5_2/gridpack/Run/run_01/madevent
+generate 2500 events
+P2_gg_llllgg
+P2_gg_llllqq
+P2_gg_llllbbx
+P2_gq_llllgq
+P2_gb_llllgb
+P2_qq_llllgg
+P2_bbx_llllgg
+P1_gg_llllg
+P2_qq_llllqq
+P2_bb_llllbb
+P0_gg_llll
+P1_gq_llllq
+P1_gb_llllb
+P1_qq_llllg
+P1_bbx_llllg
+P2_qq_llllbbx
+P2_qb_llllqb
+P2_bbx_llllqq
+Using random number seed offset = 1001
+INFO: Generating 2500.0 unweighted events. 
+sum of cpu time of last step: 0 second
+INFO: need to improve 73 channels 
+combine_events
+store_events
+  === Results Summary for run: GridRun_1001 tag: tag_1 ===
+
+     Cross-section :   0 +- 0 pb
+     Nb of events :  2500
+ 
+INFO: # Events generated with PDF: NNPDF30_nlo_as_0118 (260000) 
+INFO: # Will Compute 10 weights per event. 
+INFO: # Currently at event 0 [elapsed time: 0.0041 s] 
+INFO: #***************************************************************************
+#
+# original cross-section: 0.0014307144000000591
+#     scale variation: +41.4% -23.3%
+#     emission scale variation: +41.4% -23.3%
+#
+#***************************************************************************
+ 
+decay_events -from_cards
+DONE
+write ./events.lhe.gz
